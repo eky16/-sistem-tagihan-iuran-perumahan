@@ -2,7 +2,7 @@
 $host = 'localhost';
 $username = 'root';
 $password ='';
-$data = 'lellang';
+$data = 'bayar_iuran';
 $koneksi = new mysqli("$host", "$username", "$password", "$data");
 if(mysqli_connect_error()){
     echo "Error :( </br>". mysqli_connect_error();
