@@ -1,0 +1,72 @@
+body {
+    margin-bottom: 0px;
+    padding: 0px;
+    background: url(regis.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    height: 100vh;
+}
+.pendaftaran-box {
+    // membuat login ditengah
+    width: 320px;
+    height: 640px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 100px;
+    transform: translate(-50%, -50%);
+}
+
+.pendaftaran-box p {
+    margin-bottom: 0px;
+    padding: 0px;
+    font-weight: bold;
+}
+
+.pendaftaran-box input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.pendaftaran-box input[type="text"],
+input[type="password"],
+input[type="tel"],
+input[type="email"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.pendaftaran-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    background: #800;
+}
+
+.pendaftaran-box input[type="submit"]:hover {
+    cursor: pointer;
+    background: #800080;
+    color: #fff;
+}
+
+.pendaftaran-box a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+
+.pendaftaran-box a:hover {
+    color: #E33;
+}
