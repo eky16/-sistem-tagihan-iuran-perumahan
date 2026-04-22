@@ -41,8 +41,7 @@ Aplikasi ini ditujukan untuk:
 
 * PHP (CodeIgniter 3)
 * MySQL
-* HTML, CSS, JavaScript
-* Bootstrap (jika digunakan)
+* HTML, CSS
 
 
 
